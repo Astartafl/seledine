@@ -72,7 +72,7 @@ public class test {
         Date today = Calendar.getInstance().getTime();
         String todayAsString = df.format(today);
         return Integer.parseInt(todayAsString.substring(0,2)) - 1; }
-    String dateToCompare = "14/11/2020";    //jodatime lib
+    String dateToCompare = "16/11/2020";    //jodatime lib
 
     /* test10 */
     By tableLink = By.xpath("//a[text()='Table']");
