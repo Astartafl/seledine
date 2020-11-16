@@ -84,13 +84,6 @@ public class TestNeTest {
     String resultRowString = "4 Bootstrap 3 Emily John in progress";
 
 
-
-
-
-
-
-
-
     @BeforeClass
     public static void beforeTestClass(){
         Configuration.baseUrl="https://www.seleniumeasy.com/";
@@ -113,6 +106,7 @@ public class TestNeTest {
         $(inputSingleMessage).setValue("Hello");
         $(inputSingleMessageButton).click();
         $(checkMessage).shouldHave(text(messageCheck));
+        System.out.println("test1");
     }
     @Test
     public void test2() {
@@ -122,6 +116,7 @@ public class TestNeTest {
         $(inputB).setValue("3");
         $(getTotalButton).click();
         $(checkTotal).shouldHave(text(checkTotalString));
+        System.out.println("test2");
     }
     @Test
     @Ignore
@@ -132,6 +127,7 @@ public class TestNeTest {
         $(checkBox3).click();
         $(checkBox1).shouldBe(enabled);
         $(checkBox3).shouldBe(enabled);
+        System.out.println("test3");
     }
     @Test
     public void test4(){
@@ -141,6 +137,7 @@ public class TestNeTest {
         $(checkBoxAge).shouldBe(visible).click();
         $(getValuesButton).shouldBe(visible).click();
         $(checkBoxMessage).shouldBe(visible).shouldHave(text(checkBoxMessageCheck));
+        System.out.println("test4");
     }
     @Test
     public void test5() {
@@ -149,6 +146,7 @@ public class TestNeTest {
         $(dropDownSingleMenu).shouldBe(visible).click();
         $(optionFriday).shouldBe(visible).click();
         $(selectedValueDropDown).shouldBe(visible).shouldHave(text(singleDropdownTextCheck));
+        System.out.println("test5");
     }
     @Test
     public void test6() {
@@ -158,6 +156,7 @@ public class TestNeTest {
         $(optionNewYork).shouldBe(visible).click();
         $(printAllButton).shouldBe(visible).click();
         $(multiCheck).shouldBe(visible).shouldHave(text(multiCheckMessage));
+        System.out.println("test6");
     }
     @Test
     public void test7(){
@@ -165,6 +164,7 @@ public class TestNeTest {
         $(ajaxFormSubmit).shouldBe(visible).click();
         $(ajaxSubmitButton).shouldBe(visible).click();
         $(ajaxTitleField).shouldHave(cssValue("borderColor", borderColor));
+        System.out.println("test7");
     }
     @Test
     @Ignore
@@ -176,6 +176,7 @@ public class TestNeTest {
         By yesterdayDate = By.xpath("//td[text()[contains(.,'" + yesterday + "')]]");
         $(yesterdayDate).click();
         $(datePickerButton).shouldBe(visible).shouldHave(attribute("value",dateToCompare));
+        System.out.println("test8");
     }
     @Test
     @Ignore
@@ -187,6 +188,7 @@ public class TestNeTest {
         String a = $(resultRow).innerText();
         System.out.println("print: " + a);
         $(resultRow).shouldBe(visible).shouldHave(text(resultRowString));
+        System.out.println("test10");
 
     }
 
