@@ -173,6 +173,7 @@ public class test {
         $(datePickerButton).shouldBe(visible).shouldHave(attribute("value",dateToCompare));
     }
     @Test
+    @Ignore
     public void test10(){
         $(tableLink).shouldBe(visible).click();
         $(tableDataSearch).shouldBe(visible).click();
