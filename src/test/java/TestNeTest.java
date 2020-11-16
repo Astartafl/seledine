@@ -2,7 +2,6 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
-import com.codeborne.selenide.SelenideElement;
 import org.junit.*;
 import org.openqa.selenium.By;
 
@@ -11,7 +10,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-public class test {
+public class TestNeTest {
 
     /* test1 */
     By inputForms = By.xpath("//a[text()='Input Forms']");
@@ -163,6 +162,7 @@ public class test {
         $(ajaxTitleField).shouldHave(cssValue("borderColor", borderColor));
     }
     @Test
+    @Ignore
     public void test8() {
         $(datePicker).shouldBe(visible).click();
         $(bootstrapDatePicker).shouldBe(visible).click();
