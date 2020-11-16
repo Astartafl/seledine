@@ -1,0 +1,361 @@
+[1605204183.049][INFO]: Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 9502
+[1605204183.049][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1605204183.997][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "D:\\java\\laba4\\build\\downloads\\1605204181929_4736_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "D:\\java\\laba4\\build\\downloads\\1605204181929_4736_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1605204184.001][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "D:\\java\\laba4\\build\\downloads\\1605204181929_4736_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1605204184.009][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1605204184.012][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\tom\AppData\Local\Temp\scoped_dir17496_2135031231" data:,
+[1605204184.789][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1605204184.802][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1605204185.244][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "86.0.4240.193",
+      "chrome": {
+         "chromedriverVersion": "86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378})",
+         "userDataDir": "C:\\Users\\tom\\AppData\\Local\\Temp\\scoped_dir17496_2135031231"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:56251"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "d8a1bc44a7845320d1f4693b9b28bf55"
+}
+[1605204185.366][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND MaximizeWindow {
+
+}
+[1605204185.366][INFO]: Waiting for pending navigations...
+[1605204185.367][INFO]: Done waiting for pending navigations. Status: ok
+[1605204185.488][INFO]: Waiting for pending navigations...
+[1605204185.490][INFO]: Done waiting for pending navigations. Status: ok
+[1605204185.490][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE MaximizeWindow {
+   "height": 840,
+   "width": 1552,
+   "x": -8,
+   "y": -8
+}
+[1605204185.501][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1605204185.501][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE SetTimeouts
+[1605204185.654][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[text()='Input Forms']"
+}
+[1605204185.655][INFO]: Waiting for pending navigations...
+[1605204185.656][INFO]: Done waiting for pending navigations. Status: ok
+[1605204185.683][INFO]: Waiting for pending navigations...
+[1605204185.684][INFO]: Done waiting for pending navigations. Status: ok
+[1605204185.685][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Input Forms']"}
+  (Session info: chrome=86.0.4240.193)
+[1605204185.910][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[text()='Input Forms']"
+}
+[1605204185.910][INFO]: Waiting for pending navigations...
+[1605204185.912][INFO]: Done waiting for pending navigations. Status: ok
+[1605204185.927][INFO]: Waiting for pending navigations...
+[1605204185.929][INFO]: Done waiting for pending navigations. Status: ok
+[1605204185.929][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Input Forms']"}
+  (Session info: chrome=86.0.4240.193)
+[1605204186.140][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[text()='Input Forms']"
+}
+[1605204186.140][INFO]: Waiting for pending navigations...
+[1605204186.142][INFO]: Done waiting for pending navigations. Status: ok
+[1605204186.157][INFO]: Waiting for pending navigations...
+[1605204186.159][INFO]: Done waiting for pending navigations. Status: ok
+[1605204186.159][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Input Forms']"}
+  (Session info: chrome=86.0.4240.193)
+[1605204186.370][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[text()='Input Forms']"
+}
+[1605204186.370][INFO]: Waiting for pending navigations...
+[1605204186.372][INFO]: Done waiting for pending navigations. Status: ok
+[1605204186.386][INFO]: Waiting for pending navigations...
+[1605204186.388][INFO]: Done waiting for pending navigations. Status: ok
+[1605204186.388][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Input Forms']"}
+  (Session info: chrome=86.0.4240.193)
+[1605204186.599][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[text()='Input Forms']"
+}
+[1605204186.599][INFO]: Waiting for pending navigations...
+[1605204186.601][INFO]: Done waiting for pending navigations. Status: ok
+[1605204186.615][INFO]: Waiting for pending navigations...
+[1605204186.616][INFO]: Done waiting for pending navigations. Status: ok
+[1605204186.617][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Input Forms']"}
+  (Session info: chrome=86.0.4240.193)
+[1605204186.827][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[text()='Input Forms']"
+}
+[1605204186.827][INFO]: Waiting for pending navigations...
+[1605204186.829][INFO]: Done waiting for pending navigations. Status: ok
+[1605204186.846][INFO]: Waiting for pending navigations...
+[1605204186.847][INFO]: Done waiting for pending navigations. Status: ok
+[1605204186.847][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Input Forms']"}
+  (Session info: chrome=86.0.4240.193)
+[1605204187.058][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[text()='Input Forms']"
+}
+[1605204187.058][INFO]: Waiting for pending navigations...
+[1605204187.060][INFO]: Done waiting for pending navigations. Status: ok
+[1605204187.074][INFO]: Waiting for pending navigations...
+[1605204187.076][INFO]: Done waiting for pending navigations. Status: ok
+[1605204187.076][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Input Forms']"}
+  (Session info: chrome=86.0.4240.193)
+[1605204187.285][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[text()='Input Forms']"
+}
+[1605204187.285][INFO]: Waiting for pending navigations...
+[1605204187.287][INFO]: Done waiting for pending navigations. Status: ok
+[1605204187.301][INFO]: Waiting for pending navigations...
+[1605204187.303][INFO]: Done waiting for pending navigations. Status: ok
+[1605204187.303][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Input Forms']"}
+  (Session info: chrome=86.0.4240.193)
+[1605204187.513][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[text()='Input Forms']"
+}
+[1605204187.513][INFO]: Waiting for pending navigations...
+[1605204187.515][INFO]: Done waiting for pending navigations. Status: ok
+[1605204187.529][INFO]: Waiting for pending navigations...
+[1605204187.531][INFO]: Done waiting for pending navigations. Status: ok
+[1605204187.531][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Input Forms']"}
+  (Session info: chrome=86.0.4240.193)
+[1605204187.741][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[text()='Input Forms']"
+}
+[1605204187.741][INFO]: Waiting for pending navigations...
+[1605204187.743][INFO]: Done waiting for pending navigations. Status: ok
+[1605204187.757][INFO]: Waiting for pending navigations...
+[1605204187.759][INFO]: Done waiting for pending navigations. Status: ok
+[1605204187.759][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Input Forms']"}
+  (Session info: chrome=86.0.4240.193)
+[1605204187.970][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[text()='Input Forms']"
+}
+[1605204187.970][INFO]: Waiting for pending navigations...
+[1605204187.972][INFO]: Done waiting for pending navigations. Status: ok
+[1605204187.989][INFO]: Waiting for pending navigations...
+[1605204187.991][INFO]: Done waiting for pending navigations. Status: ok
+[1605204187.991][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Input Forms']"}
+  (Session info: chrome=86.0.4240.193)
+[1605204188.200][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[text()='Input Forms']"
+}
+[1605204188.200][INFO]: Waiting for pending navigations...
+[1605204188.202][INFO]: Done waiting for pending navigations. Status: ok
+[1605204188.219][INFO]: Waiting for pending navigations...
+[1605204188.221][INFO]: Done waiting for pending navigations. Status: ok
+[1605204188.221][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Input Forms']"}
+  (Session info: chrome=86.0.4240.193)
+[1605204188.432][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[text()='Input Forms']"
+}
+[1605204188.432][INFO]: Waiting for pending navigations...
+[1605204188.434][INFO]: Done waiting for pending navigations. Status: ok
+[1605204188.448][INFO]: Waiting for pending navigations...
+[1605204188.449][INFO]: Done waiting for pending navigations. Status: ok
+[1605204188.450][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Input Forms']"}
+  (Session info: chrome=86.0.4240.193)
+[1605204188.658][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[text()='Input Forms']"
+}
+[1605204188.658][INFO]: Waiting for pending navigations...
+[1605204188.660][INFO]: Done waiting for pending navigations. Status: ok
+[1605204188.676][INFO]: Waiting for pending navigations...
+[1605204188.678][INFO]: Done waiting for pending navigations. Status: ok
+[1605204188.678][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Input Forms']"}
+  (Session info: chrome=86.0.4240.193)
+[1605204188.887][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[text()='Input Forms']"
+}
+[1605204188.888][INFO]: Waiting for pending navigations...
+[1605204188.890][INFO]: Done waiting for pending navigations. Status: ok
+[1605204188.904][INFO]: Waiting for pending navigations...
+[1605204188.906][INFO]: Done waiting for pending navigations. Status: ok
+[1605204188.906][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Input Forms']"}
+  (Session info: chrome=86.0.4240.193)
+[1605204189.116][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[text()='Input Forms']"
+}
+[1605204189.116][INFO]: Waiting for pending navigations...
+[1605204189.118][INFO]: Done waiting for pending navigations. Status: ok
+[1605204189.133][INFO]: Waiting for pending navigations...
+[1605204189.135][INFO]: Done waiting for pending navigations. Status: ok
+[1605204189.135][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Input Forms']"}
+  (Session info: chrome=86.0.4240.193)
+[1605204189.345][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[text()='Input Forms']"
+}
+[1605204189.346][INFO]: Waiting for pending navigations...
+[1605204189.348][INFO]: Done waiting for pending navigations. Status: ok
+[1605204189.362][INFO]: Waiting for pending navigations...
+[1605204189.364][INFO]: Done waiting for pending navigations. Status: ok
+[1605204189.364][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Input Forms']"}
+  (Session info: chrome=86.0.4240.193)
+[1605204189.574][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[text()='Input Forms']"
+}
+[1605204189.574][INFO]: Waiting for pending navigations...
+[1605204189.576][INFO]: Done waiting for pending navigations. Status: ok
+[1605204189.591][INFO]: Waiting for pending navigations...
+[1605204189.593][INFO]: Done waiting for pending navigations. Status: ok
+[1605204189.593][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Input Forms']"}
+  (Session info: chrome=86.0.4240.193)
+[1605204189.825][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1605204189.825][INFO]: Waiting for pending navigations...
+[1605204189.827][INFO]: Done waiting for pending navigations. Status: ok
+[1605204189.835][INFO]: Waiting for pending navigations...
+[1605204189.837][INFO]: Done waiting for pending navigations. Status: ok
+[1605204189.837][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\u003C/head>\u003Cbody>\u003C/body>\u003C/html>"
+[1605204189.843][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND Screenshot {
+
+}
+[1605204189.843][INFO]: Waiting for pending navigations...
+[1605204189.845][INFO]: Done waiting for pending navigations. Status: ok
+[1605204190.368][INFO]: Waiting for pending navigations...
+[1605204190.369][INFO]: Done waiting for pending navigations. Status: ok
+[1605204190.369][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB4AAAAOvCAYAAAAtF9k2AAAAAXNSR0IArs4c6QAAIABJREFUeJzs2cENwCAQwLDS/Xc+lkBCRPYE+WfNzHwAAAAAAAAAPO+/HQAAAAAAAADAGQYwAAAAAAAAQIQBDAAAAAAAABBhAAMAAAAAAABEGMAAAAAAAAAAEQYwAAAAAAAAQ..."
+[1605204190.460][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] COMMAND Quit {
+
+}
+[1605204190.546][INFO]: [d8a1bc44a7845320d1f4693b9b28bf55] RESPONSE Quit
