@@ -82,7 +82,7 @@ public class TestNeTest {
     By inputTable = By.xpath("//input[@id='task-table-filter']");
     By resultRow = By.xpath("//table[@id='task-table']//tbody//tr[@style='display: table-row;']");
     String resultRowString = "4 Bootstrap 3 Emily John in progress";
-
+//comment
 
     @BeforeClass
     public static void beforeTestClass(){
