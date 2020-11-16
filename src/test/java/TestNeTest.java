@@ -2,8 +2,11 @@ import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
+import com.codeborne.selenide.WebDriverRunner;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.*;
 import org.openqa.selenium.By;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -97,6 +100,8 @@ public class TestNeTest {
 
     @Before
     public void beforeTest(){
+        WebDriverManager.chromedriver().setup();
+        WebDriverRunner.setWebDriver(new ChromeDriver());
         open("/test");
         $(noThanksButton).shouldBe(visible).click();
 
