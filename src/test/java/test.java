@@ -103,7 +103,6 @@ public class test {
 
     }
     @Test
-    @Ignore
     public void test1(){
         $(inputForms).shouldBe(visible).click();
         $(simpleFormDemo).shouldBe(visible).click();
@@ -112,7 +111,6 @@ public class test {
         $(checkMessage).shouldHave(text(messageCheck));
     }
     @Test
-    @Ignore
     public void test2() {
         $(inputForms).shouldBe(visible).click();
         $(simpleFormDemo).shouldBe(visible).click();
@@ -132,7 +130,6 @@ public class test {
         $(checkBox3).shouldBe(enabled);
     }
     @Test
-    @Ignore
     public void test4(){
         $(inputForms).shouldBe(visible).click();
         $(radioButtonDemo).shouldBe(visible).click();
@@ -142,7 +139,6 @@ public class test {
         $(checkBoxMessage).shouldBe(visible).shouldHave(text(checkBoxMessageCheck));
     }
     @Test
-    @Ignore
     public void test5() {
         $(inputForms).shouldBe(visible).click();
         $(dropDownDemo).shouldBe(visible).click();
@@ -151,7 +147,6 @@ public class test {
         $(selectedValueDropDown).shouldBe(visible).shouldHave(text(singleDropdownTextCheck));
     }
     @Test
-    @Ignore
     public void test6() {
         $(inputForms).shouldBe(visible).click();
         $(dropDownDemo).shouldBe(visible).click();
@@ -161,7 +156,6 @@ public class test {
         $(multiCheck).shouldBe(visible).shouldHave(text(multiCheckMessage));
     }
     @Test
-    @Ignore
     public void test7(){
         $(inputForms).shouldBe(visible).click();
         $(ajaxFormSubmit).shouldBe(visible).click();
@@ -169,7 +163,6 @@ public class test {
         $(ajaxTitleField).shouldHave(cssValue("borderColor", borderColor));
     }
     @Test
-    @Ignore
     public void test8() {
         $(datePicker).shouldBe(visible).click();
         $(bootstrapDatePicker).shouldBe(visible).click();
@@ -180,7 +173,6 @@ public class test {
         $(datePickerButton).shouldBe(visible).shouldHave(attribute("value",dateToCompare));
     }
     @Test
-    @Ignore
     public void test10(){
         $(tableLink).shouldBe(visible).click();
         $(tableDataSearch).shouldBe(visible).click();
